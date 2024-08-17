@@ -11,7 +11,7 @@ public class Age {
 	public static void main(String[] args) {
 		try(Scanner scanner=new Scanner(System.in)){
 			
-			System.out.println("Enter Date Of Birth(dd-MM-yyyy):\t");
+			System.out.println("Enter Date Of Birth(dd-MM-yyyy):");
 			
 			String stringDob=scanner.next();
 			
@@ -25,7 +25,7 @@ public class Age {
 			
 			int age = currentYear.getYear() - dob.getYear();
 			
-			System.out.println("Your age in 2024 is:\t"+age);
+			System.out.println("Your age in 2024 is:"+age);
 			
 			}
 			catch(DateTimeParseException e) {
